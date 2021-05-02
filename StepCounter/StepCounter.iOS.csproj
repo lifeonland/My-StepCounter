@@ -28,7 +28,8 @@
     </MtouchI18n>
     <MtouchArch>i386</MtouchArch>
     <MtouchProfiling>true</MtouchProfiling>
-    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <CodesignProvision>VS: WildCard Development</CodesignProvision>
+    <CodesignKey>Apple Development: Srivatsa M (KA8X527VAW)</CodesignKey>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <Optimize>true</Optimize>
@@ -39,6 +40,8 @@
     <ConsolePause>false</ConsolePause>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <DefineConstants>Release;__IOS__</DefineConstants>
+    <CodesignProvision>VS: WildCard Development</CodesignProvision>
+    <CodesignKey>Apple Development: Srivatsa M (KA8X527VAW)</CodesignKey>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
     <DebugSymbols>true</DebugSymbols>
@@ -51,15 +54,15 @@
     <ConsolePause>false</ConsolePause>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchDebug>true</MtouchDebug>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>Apple Development: Srivatsa M (KA8X527VAW)</CodesignKey>
     <IpaPackageName>
     </IpaPackageName>
     <MtouchI18n>
     </MtouchI18n>
     <MtouchArch>ARMv7</MtouchArch>
     <MtouchProfiling>true</MtouchProfiling>
-    <MtouchUseRefCounting>true</MtouchUseRefCounting>
     <MtouchSdkVersion>8.4</MtouchSdkVersion>
+    <CodesignProvision>VS: WildCard Development</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <Optimize>true</Optimize>
@@ -68,7 +71,7 @@
     <WarningLevel>4</WarningLevel>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <ConsolePause>false</ConsolePause>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>Apple Development: Srivatsa M (KA8X527VAW)</CodesignKey>
     <DefineConstants>RELEASE;__IOS__</DefineConstants>
     <MtouchSdkVersion>7.0</MtouchSdkVersion>
     <MtouchUseLlvm>true</MtouchUseLlvm>
@@ -79,7 +82,7 @@
     <MtouchArch>ARMv7</MtouchArch>
     <IpaPackageName>
     </IpaPackageName>
-    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <CodesignProvision>VS: WildCard Development</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
     <Optimize>true</Optimize>
@@ -89,10 +92,9 @@
     <ConsolePause>false</ConsolePause>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <BuildIpa>true</BuildIpa>
-    <CodesignProvision>Automatic:AdHoc</CodesignProvision>
-    <CodesignKey>iPhone Distribution</CodesignKey>
+    <CodesignProvision>VS: WildCard Development</CodesignProvision>
+    <CodesignKey>Apple Development: Srivatsa M (KA8X527VAW)</CodesignKey>
     <DefineConstants>__IOS__</DefineConstants>
-    <MtouchUseRefCounting>true</MtouchUseRefCounting>
     <MtouchI18n>
     </MtouchI18n>
     <MtouchArch>ARMv7</MtouchArch>
@@ -102,10 +104,10 @@
     <OutputPath>bin\iPhone\AppStore</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Distribution</CodesignKey>
+    <CodesignKey>Apple Development: Srivatsa M (KA8X527VAW)</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <ConsolePause>false</ConsolePause>
-    <CodesignProvision>c38f28b1-2368-42e9-acd4-8b7e129ee181</CodesignProvision>
+    <CodesignProvision>VS: WildCard Development</CodesignProvision>
     <DefineConstants>APPSTORE;__IOS__</DefineConstants>
     <MtouchSdkVersion>8.4</MtouchSdkVersion>
     <MtouchUseLlvm>true</MtouchUseLlvm>
@@ -115,15 +117,15 @@
     <MtouchI18n>
     </MtouchI18n>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
-    <MtouchUseRefCounting>true</MtouchUseRefCounting>
     <MtouchLink>Full</MtouchLink>
-    <MtouchUseSGen>true</MtouchUseSGen>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug</OutputPath>
     <WarningLevel>4</WarningLevel>
     <DefineConstants>DEBUG;__IOS__</DefineConstants>
+    <CodesignProvision>VS: WildCard Development</CodesignProvision>
+    <CodesignKey>Apple Development: Srivatsa M (KA8X527VAW)</CodesignKey>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
