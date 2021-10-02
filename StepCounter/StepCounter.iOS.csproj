@@ -61,8 +61,9 @@
     </MtouchI18n>
     <MtouchArch>ARMv7</MtouchArch>
     <MtouchProfiling>true</MtouchProfiling>
-    <MtouchSdkVersion>8.4</MtouchSdkVersion>
+    <MtouchSdkVersion>14.5</MtouchSdkVersion>
     <CodesignProvision>VS: WildCard Development</CodesignProvision>
+    <MtouchLink>SdkOnly</MtouchLink>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <Optimize>true</Optimize>
@@ -98,6 +99,7 @@
     <MtouchI18n>
     </MtouchI18n>
     <MtouchArch>ARMv7</MtouchArch>
+    <MtouchLink>SdkOnly</MtouchLink>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
     <Optimize>true</Optimize>
@@ -126,6 +128,7 @@
     <DefineConstants>DEBUG;__IOS__</DefineConstants>
     <CodesignProvision>VS: WildCard Development</CodesignProvision>
     <CodesignKey>Apple Development: Srivatsa M (KA8X527VAW)</CodesignKey>
+    <MtouchLink>SdkOnly</MtouchLink>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
